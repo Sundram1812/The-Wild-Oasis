@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  /* Creating animations for dark mode */
+  transition: background-color 0.3s, border 0.3s;
+}
+
+.sideBarUl .active{
+  color: #1f2937;
+  background-color: #f3f4f6;
+  border-radius: 2px;
+}
+
+.sideBarUl .active .sidebarIcon{
+  color:#4338ca
+}
